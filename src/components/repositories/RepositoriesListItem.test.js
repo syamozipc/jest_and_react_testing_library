@@ -52,6 +52,5 @@ test("エディタページへのリンクが正しいか", async () => {
     name: new RegExp(repository.owner.login),
   });
 
-  screen.debug(link);
   expect(link).toHaveAttribute("href", `/repositories/${repository.full_name}`);
 });
