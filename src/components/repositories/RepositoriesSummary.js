@@ -1,4 +1,4 @@
-import { StarIcon } from "@primer/octicons-react";
+import { StarIcon } from '@primer/octicons-react';
 
 function RepositoriesSummary({ repository }) {
   const { stargazers_count, open_issues, forks, language } = repository;
